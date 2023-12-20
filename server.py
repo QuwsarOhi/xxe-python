@@ -21,7 +21,4 @@ data = xml.format()
 
 #  Parsing xml
 root = etree.fromstring(data, xparse)
-
 print(etree.tostring(root))
-#print('rendered output:\n', root.text)
-#print(root.text)

