@@ -1,8 +1,8 @@
 The project contains three files:
 ```
-attack.py  # Contians the attack code
+attack.py  # Contains the attack code
 server.py  # A server code that is vulnerable to xxe
-secret     # A secret file containing secret infomraiton
+secret     # A secret file containing secret information
 ```
 
 To demonstrate the attack, run `python3 attack.py`. To manually test the server, run `python3 server.py 'xml-data'`.
