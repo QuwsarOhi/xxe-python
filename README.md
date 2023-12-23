@@ -9,7 +9,7 @@ server.py  # A server code that is vulnerable to xxe
 secret     # A secret file containing secret information
 ```
 
-To demonstrate the attack, run `python3 attack.py`. To manually test the server, run `python3 server.py 'xml-data'`.
+To demonstrate the attack, go to the root dirctory of this project and run `python3 attack.py`. To manually test the server, run `python3 server.py 'xml-data'`.
 
 The `attack.py` calls `server.py` and gives a malicious XML data to process. `server.py` processes the malicious XML (contains XXE) and echoes the XML data as output.
 
