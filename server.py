@@ -1,4 +1,4 @@
-#  This is a echo server
+#  This is an echo server
 #  The server recieves xml string as command line argument
 #  and it echoes back the xml string as output
 
