@@ -10,7 +10,7 @@ import sys
 #  Change the variable to false to defend xxe vulnerability
 MAKE_VULNERABLE = True
 
-#  Fatching XML from command line argument
+#  Fetching XML from command line argument
 if len(sys.argv) != 2:
     raise ValueError("The server needs xml string as argument")
 xml = sys.argv[1]
