@@ -25,7 +25,6 @@ xml = '''\
 # Send the malicious XML to the server and capture the output.
 # The vulnerability lies in the server's XML parser, which processes external entities.
 # Developers may overlook disabling external entities in XML parsers, leading to this vulnerability.
-
 server_output = subprocess.check_output(["python3", "server.py", xml])
 print(server_output.decode())
 
