@@ -1,4 +1,4 @@
-# CWE-611:
+# CWE-611
 
 ## How to run?
 
